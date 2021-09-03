@@ -7,7 +7,7 @@
 
 BOARD_VENDOR := oneplus
 
-DEVICE_PATH := device/oneplus/guacamole
+DEVICE_PATH := device/oneplus/guacamolev2
 
 # Architecture
 TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
@@ -24,7 +24,7 @@ TARGET_SCREEN_DENSITY := 560
 # TARGET_RECOVERY_DEVICE_MODULES := libinit_guacamole
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/sm8150-perf_defconfig
+TARGET_KERNEL_CONFIG := vendor/sm8150-perf-v2_defconfig
 
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
